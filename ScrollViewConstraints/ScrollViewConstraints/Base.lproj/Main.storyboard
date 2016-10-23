@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewConstraints" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mXS-2k-DCU">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAT-1u-I79">
+                                        <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="xaG-bR-IGr"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eeP-dY-cgD">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="0jJ-Ud-aH5"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h55-Ll-jiX">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="lKj-lw-fNr"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VZc-2e-5Tx">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="jZn-TR-9qH"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CrB-BY-b81">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="fMg-af-h7B"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rGy-Kk-sCc">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="y2D-cW-zh3"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 6" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiR-l3-4mi">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="rk4-Zq-hWB"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 7" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TiX-CY-8JC">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Kpx-9P-STe"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 8" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FA4-6s-Ojy">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="fiI-tX-uXP"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 9" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ebF-sv-JR3">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="gIK-2x-Byc"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 10" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gsL-h6-1ix">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="XrY-Ww-bAD"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 11" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hc0-mC-2cB">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="NYb-cU-wyC"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresar texto 12" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kpD-X2-3CW">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="r3v-bS-NKu"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                    </textField>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="ebF-sv-JR3" firstAttribute="top" secondItem="FA4-6s-Ojy" secondAttribute="bottom" constant="25" id="4NC-CO-LbW"/>
+                                    <constraint firstItem="VZc-2e-5Tx" firstAttribute="top" secondItem="h55-Ll-jiX" secondAttribute="bottom" constant="29" id="6EB-zD-XLl"/>
+                                    <constraint firstAttribute="trailing" secondItem="VZc-2e-5Tx" secondAttribute="trailing" constant="26" id="6K8-BF-0Sa"/>
+                                    <constraint firstItem="eeP-dY-cgD" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="8cu-pi-vfc"/>
+                                    <constraint firstItem="rGy-Kk-sCc" firstAttribute="top" secondItem="CrB-BY-b81" secondAttribute="bottom" constant="25" id="8ux-Dh-PRn"/>
+                                    <constraint firstAttribute="trailing" secondItem="rGy-Kk-sCc" secondAttribute="trailing" constant="26" id="CXH-VV-tGn"/>
+                                    <constraint firstAttribute="trailing" secondItem="HAT-1u-I79" secondAttribute="trailing" id="Cc9-Bp-XfI"/>
+                                    <constraint firstItem="HAT-1u-I79" firstAttribute="top" secondItem="mXS-2k-DCU" secondAttribute="top" id="Cdr-Ea-1n3"/>
+                                    <constraint firstItem="gsL-h6-1ix" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="DZj-Rf-G3b"/>
+                                    <constraint firstItem="hiR-l3-4mi" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="EOh-13-PhK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ebF-sv-JR3" secondAttribute="trailing" constant="26" id="GZJ-Dy-fjX"/>
+                                    <constraint firstItem="kpD-X2-3CW" firstAttribute="top" secondItem="hc0-mC-2cB" secondAttribute="bottom" constant="24" id="K2Y-an-IxK"/>
+                                    <constraint firstAttribute="trailing" secondItem="h55-Ll-jiX" secondAttribute="trailing" constant="26" id="KPR-lj-fgU"/>
+                                    <constraint firstItem="TiX-CY-8JC" firstAttribute="top" secondItem="hiR-l3-4mi" secondAttribute="bottom" constant="21" id="MTF-lJ-M3i"/>
+                                    <constraint firstItem="h55-Ll-jiX" firstAttribute="top" secondItem="eeP-dY-cgD" secondAttribute="bottom" constant="24" id="NEh-QY-quh"/>
+                                    <constraint firstAttribute="trailing" secondItem="hiR-l3-4mi" secondAttribute="trailing" constant="26" id="PHo-sn-926"/>
+                                    <constraint firstItem="kpD-X2-3CW" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="PLI-h1-I5a"/>
+                                    <constraint firstItem="ebF-sv-JR3" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="QNG-1E-Env"/>
+                                    <constraint firstItem="hc0-mC-2cB" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="R3L-px-yAn"/>
+                                    <constraint firstItem="HAT-1u-I79" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" id="T2h-lT-tgN"/>
+                                    <constraint firstItem="eeP-dY-cgD" firstAttribute="top" secondItem="HAT-1u-I79" secondAttribute="bottom" constant="15" id="VVE-3O-tQS"/>
+                                    <constraint firstAttribute="trailing" secondItem="hc0-mC-2cB" secondAttribute="trailing" constant="26" id="Z9n-Vf-2kA"/>
+                                    <constraint firstItem="FA4-6s-Ojy" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="bTi-v0-6xP"/>
+                                    <constraint firstAttribute="trailing" secondItem="TiX-CY-8JC" secondAttribute="trailing" constant="26" id="cTS-B2-vhf"/>
+                                    <constraint firstItem="FA4-6s-Ojy" firstAttribute="top" secondItem="TiX-CY-8JC" secondAttribute="bottom" constant="24" id="ggC-re-3wN"/>
+                                    <constraint firstItem="CrB-BY-b81" firstAttribute="top" secondItem="VZc-2e-5Tx" secondAttribute="bottom" constant="24" id="h45-nU-fO6"/>
+                                    <constraint firstAttribute="trailing" secondItem="CrB-BY-b81" secondAttribute="trailing" constant="26" id="ikD-YA-ML5"/>
+                                    <constraint firstItem="hiR-l3-4mi" firstAttribute="top" secondItem="rGy-Kk-sCc" secondAttribute="bottom" constant="24" id="n4d-ST-3vK"/>
+                                    <constraint firstItem="HAT-1u-I79" firstAttribute="width" secondItem="mXS-2k-DCU" secondAttribute="width" id="nEf-FW-Whg"/>
+                                    <constraint firstItem="hc0-mC-2cB" firstAttribute="top" secondItem="gsL-h6-1ix" secondAttribute="bottom" constant="21" id="neT-PJ-FDo"/>
+                                    <constraint firstAttribute="trailing" secondItem="eeP-dY-cgD" secondAttribute="trailing" constant="26" id="oDo-fQ-yCZ"/>
+                                    <constraint firstItem="rGy-Kk-sCc" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="psI-g6-PDe"/>
+                                    <constraint firstItem="CrB-BY-b81" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="rMk-M8-Afg"/>
+                                    <constraint firstAttribute="bottom" secondItem="kpD-X2-3CW" secondAttribute="bottom" constant="30" id="tQC-fH-8wS"/>
+                                    <constraint firstItem="gsL-h6-1ix" firstAttribute="top" secondItem="ebF-sv-JR3" secondAttribute="bottom" constant="24" id="ti5-he-mZJ"/>
+                                    <constraint firstItem="TiX-CY-8JC" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="vAh-mt-hQC"/>
+                                    <constraint firstAttribute="trailing" secondItem="kpD-X2-3CW" secondAttribute="trailing" constant="26" id="wnO-He-efQ"/>
+                                    <constraint firstItem="h55-Ll-jiX" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="xUf-Uz-JCA"/>
+                                    <constraint firstAttribute="trailing" secondItem="gsL-h6-1ix" secondAttribute="trailing" constant="26" id="xn9-bj-Hr0"/>
+                                    <constraint firstItem="VZc-2e-5Tx" firstAttribute="leading" secondItem="mXS-2k-DCU" secondAttribute="leading" constant="27" id="y2c-4I-dkz"/>
+                                    <constraint firstAttribute="trailing" secondItem="FA4-6s-Ojy" secondAttribute="trailing" constant="26" id="zLO-hG-a4j"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iNa-0E-bfi" appends="YES" id="JYh-6l-CCY"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mXS-2k-DCU" secondAttribute="trailing" id="daz-iV-Pci"/>
+                            <constraint firstItem="mXS-2k-DCU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="k7Y-sD-h6B"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mXS-2k-DCU" secondAttribute="bottom" id="kKn-X6-3v6"/>
+                            <constraint firstItem="mXS-2k-DCU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="v01-63-SeG"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="700"/>
+                    <connections>
+                        <outlet property="constraintBottomScroll" destination="kKn-X6-3v6" id="BhC-cj-W3S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="iNa-0E-bfi">
+                    <connections>
+                        <action selector="tapCerrarTeclado:" destination="BYZ-38-t0r" id="hJY-3b-5es"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="138.75" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>
